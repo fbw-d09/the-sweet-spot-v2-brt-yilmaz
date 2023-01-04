@@ -1,0 +1,108 @@
+.main-header-div {
+  height: 10%;
+}
+
+.main-header-img {
+ height: 100px;
+ width: 100%;
+ object-fit: cover;
+}
+
+h1 {
+  background-color: #EE8D9F;
+  color:#DAD8D8;
+}
+
+h2 {
+  background-color:#DAD8D8;
+  color: #E672F0;
+}
+
+.main-paragraph {
+  background-color: #E864B3;
+}
+
+h3 {
+  background-color: #E9EF4E;
+}
+
+.subtopic-paragraph:hover {
+  color: tomato;
+}
+
+a {
+  display: block;
+}
+
+footer {
+  margin-bottom: 1rem;
+  background-color: #61D8F0;
+}
+
+footer a:active{
+  color: orangered;
+}
+
+.contact-page-link {
+  color: #87E9F6;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.contact-header {
+  background-color: white;
+}
+
+.contact-info {
+  background-color: #61D8F0;
+}
+
+.contact-to-main {
+  color: #E762BD;
+  font-weight: 900;
+}
+
+.contact-to-main:visited,
+.contact-page-link:visited {
+  color: red;
+}
+
+
+.img-lollipop {
+  height: 75px;
+  border-radius: 50%;
+  border: 4px solid yellow;
+  float: left;
+  margin-right: 10px;
+  transform: translateY(-5%);
+
+}
+
+.img-jellybeans {
+  height: 75px;
+  border-radius: 50%;
+  border: 4px solid cyan;
+  float: right;
+  margin-left: 10px;
+  transform: translateY(-18%);
+
+}
+
+.parag-jellybeans {
+  text-align: justify;
+}
+
+.img-candy-floss {
+  height: 120px;
+  clip-path: circle();
+  border: 4px solid palevioletred;
+  float: left;
+  margin-right: 10px;
+  transform: translateY(-18%);
+}
+
+.candies-contact {
+ height: 100px;
+ width: 100%;
+ object-fit: cover;
+}
